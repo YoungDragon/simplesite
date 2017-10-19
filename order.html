@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказ сайта</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans|Play" rel="stylesheet">
+</head>
+
+<body>
+   
+   <header class="main-header">
+       
+       <div class="logo">
+        <h1>Веб-студия Webdev Masters</h1>
+           
+       </div>
+       
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="samples.html">Наши работы</a></li>
+                    <li><a href="price.html">Цена</a></li>
+                    <li><a href="order.html">Заказать сайт</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+   </header>
+   <main>
+   <form>
+		<h2>Заказ сайта</h2>
+		
+
+		<label for="name">Ваше Ф.И.О</label>
+		<input type="text" name="fio" id="name" required>
+		<br><br>
+
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" required>
+		<br><br>
+
+		<label for="phone">Телефон</label>
+		<input type="text" name="phone" id="phone" required>
+		<br><br>
+
+		<label for="site-type">Тип сайта</label>
+		<select name="type_site" id="site-type">
+			<option value="1">Сайт визитка</option>
+			<option value="2">Лэндинг пейдж</option>
+			<option value="3">Интернет магазин</option>
+		</select>
+
+
+		<h2>Тип оплаты</h2>
+
+		<input type="radio" id="payment-Visa" name="payment" >
+		<label for="payment-Visa">Visa, MasterCard</label><br>
+
+		<input type="radio" id="payment-YM" name="payment" >
+		<label for="payment-YM">Яндекс Деньги</label><br><br>
+
+		<h2>Дополнительные опции</h2>
+
+		<input type="checkbox" id="option_1" name="option_1">
+		<label for="option_1">Каталог Одноуровневый (1000р.)</label><br>
+
+		<input type="checkbox" id="option_2" name="option_2">
+		<label for="option_2">Альбомная фотогаллерея (1500р.)</label>
+		<br>
+
+		<input type="checkbox" id="option_3" name="option_3">
+		<label for="option_3">Модуль отзывов (1500р.)</label>
+		<br>
+
+		<input type="checkbox" id="option_4" name="option_4">
+		<label for="option_4">Мультиязычный интерфейс (1000р.)</label>
+		<br><br>
+
+		<label for="comment">Комментарий к заказу</label><br>
+		<textarea name="name" id="comment" cols="60" rows="4"></textarea>
+		<br><br>
+
+		<input type="submit" id="submit" value="Заказать сайт">
+
+
+	</form>
+  
+   </main>
+    
+    
+     
+    <footer>
+       <div class="footer-copyright">
+           <h2>Webdev Masters © 2015-2017 г.</h2>
+           <p>г. Майкоп, ул. Первомайская 191</p>
+       </div>
+       <div class="footer-contacts">
+           <p>Телефон: +12345678</p>
+           <p>Email: support@example.com</p>
+       </div>
+    </footer>
+</body>
+</html>
